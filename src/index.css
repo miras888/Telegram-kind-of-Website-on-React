@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --primary-blue: #0088cc;
+  --secondary-gray: #f0f2f5;
+  --text-primary: #333;
+  --text-secondary: #666;
+  --bg-primary: #fff;
+  --bg-secondary: #e9ecef;
+  --border-color: #ddd;
+  --header-bg: #5f84a2;
+  --header-text: #fff;
+  --sidebar-bg: #f8f9fa;
+  --chat-bubble-me-bg: #dcf8c6;
+  --chat-bubble-other-bg: #fff;
+  --chat-time-text: #888;
+}
+
+body {
+  font-family: -apple-system, BlinkMacMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
