@@ -1,5 +1,4 @@
 import React from 'react';
-import { themeClasses } from "../utils/themeClasses"; 
 
 interface LayoutProps {
   children: React.ReactNode;
